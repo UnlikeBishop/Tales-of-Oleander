@@ -1,0 +1,170 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "TalesofOleander",
+				"abbreviation": "TO",
+				"full": "Tales of Oleander",
+				"url": "TalesOfOleanderPvt",
+				"authors": [
+					"UnlikeBishop"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1615613824,
+		"dateLastModified": 1615613824
+	},
+	
+	"spell": [
+		{
+			"name": "Sculpt Ice",
+			"source": "TalesofOleander",
+			"page": "X",
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				},
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					}
+				}
+			],
+			"entries": [
+				"You choose an empty space or an area of ice that you can see within range and that fits within a 5-foot cube. You manipulate it in one of the following ways: ",
+				"<li> Create a sculpture or a block of thin ice within a 5-foot cube. It will not melt because of any non-magical means, such as hot climate or fire, yet it will melt automatically after an hour.",
+				"<li> You can shape up to 5-feet of ice simultaneously as you want. These changes occur slowly as you concentrate on shaping the ice.",
+				"<li> You change the ice's color or opacity. This starts from a point you're touching and slowly reaches out to the rest of the surface. This lasts for up to an hour.",
+				"<li> You can melt or sublime the ice in a 5-foot cube, if sublimed, the gas produced is not enough to obscure an area.",
+				"</li>"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Genasi (Tundra)",
+					"source": "TalesofOleander",
+					"baseName": "Genasi (Frost)",
+					"baseSource": "TalesofOleander"
+				}
+			]
+		}
+	]
+
+"spell": [
+		{
+			"name": "Exhale Gas",
+			"source": "TalesofOleander",
+			"page": "X",
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				},
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					}
+				}
+			],
+			"entries": [
+				"You exhale ( or create ) a cloud of either smoke, fog or dust that can cover up to a 10-foot radius that lightly obscure the area.",
+				"The fog or smoke shapes itself to fill in corners, You can manipulate the gas you created in one of the following ways:",
+				"<li> Manipulate the gas to move or convey simple shapes and forms..",
+				"<li> You can change the smell or color of the gas you create.",
+				"<li> You can manipulate the gas you create to fly towards one creature's eyes. They must make a constitution saving throw or be blinded until your next turn. ",
+				"</li>"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Genasi (Fog)",
+					"source": "TalesofOleander",
+					"baseName": "Genasi (Fog)",
+					"baseSource": "TalesofOleander"
+				}
+				{
+					"name": "Genasi (Smoke)",
+					"source": "TalesofOleander",
+					"baseName": "Genasi (Smoke)",
+					"baseSource": "TalesofOleander"
+				}
+				
+			]
+		}
+	]
+
+
+
+}
